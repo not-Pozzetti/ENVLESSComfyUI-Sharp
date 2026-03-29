@@ -1,4 +1,4 @@
-"""MergeGaussians node for ComfyUI-Sharp.
+"""MergeGaussians node for ENVLESSComfyUI-Sharp.
 
 Merges multiple PLY files (from panorama samples) into a single unified Gaussian scene.
 """

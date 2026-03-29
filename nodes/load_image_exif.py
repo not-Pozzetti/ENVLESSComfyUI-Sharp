@@ -1,4 +1,4 @@
-"""LoadImageWithExif node for ComfyUI-Sharp.
+"""LoadImageWithExif node for ENVLESSComfyUI-Sharp.
 
 Loads an image and extracts focal length from EXIF metadata.
 """

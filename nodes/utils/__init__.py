@@ -1,4 +1,4 @@
-"""ComfyUI-Sharp utilities."""
+"""ENVLESSComfyUI-Sharp utilities."""
 
 from .image import comfy_to_numpy_rgb, convert_focallength
 

@@ -6,7 +6,7 @@ version = "0.1.0"
 license = {file = "LICENSE"}
 
 [project.urls]
-Repository = "https://github.com/PozzettiAndrea/ComfyUI-Sharp"
+Repository = "https://github.com/not-pozzetti/ENVLESSComfyUI-Sharp"
 
 [tool.comfy]
 PublisherId = "pznodes"

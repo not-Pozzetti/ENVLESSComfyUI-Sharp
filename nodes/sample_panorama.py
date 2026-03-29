@@ -1,4 +1,4 @@
-"""SamplePanorama node for ComfyUI-Sharp.
+"""SamplePanorama node for ENVLESSComfyUI-Sharp.
 
 Samples perspective cutouts from an equirectangular panorama for use with SHARP.
 """

@@ -1,4 +1,4 @@
-"""Image conversion utilities for ComfyUI-Sharp."""
+"""Image conversion utilities for ENVLESSComfyUI-Sharp."""
 
 import numpy as np
 import torch

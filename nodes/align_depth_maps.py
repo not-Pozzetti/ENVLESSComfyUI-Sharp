@@ -1,4 +1,4 @@
-"""AlignDepthMaps node for ComfyUI-Sharp.
+"""AlignDepthMaps node for ENVLESSComfyUI-Sharp.
 
 RANSAC-based scale-shift alignment to make depth maps globally consistent
 across multiple perspective views before panorama projection.
