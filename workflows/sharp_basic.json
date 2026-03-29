@@ -29,7 +29,7 @@
         }
       ],
       "properties": {
-        "aux_id": "PozzettiAndrea/ComfyUI-Sharp",
+        "aux_id": "not-pozzetti/ENVLESSComfyUI-Sharp",
         "ver": "9f1b9c726e2cfc0118866c3df783e7f6bc895226",
         "Node name for S&R": "LoadSharpModel"
       },
@@ -127,7 +127,7 @@
         }
       ],
       "properties": {
-        "aux_id": "PozzettiAndrea/ComfyUI-Sharp",
+        "aux_id": "not-pozzetti/ENVLESSComfyUI-Sharp",
         "ver": "aa98b213e3d0770477bbf46046094c5cb8ff6052",
         "Node name for S&R": "SharpPredict"
       },
@@ -171,7 +171,7 @@
       ],
       "outputs": [],
       "properties": {
-        "aux_id": "PozzettiAndrea/ComfyUI-GeometryPack",
+        "aux_id": "not-pozzetti/ENVLESSComfyUI-GeometryPack",
         "ver": "b7df285fc5b3fef7aad434d8b6e8698efed6358b",
         "Node name for S&R": "GeomPackPreviewGaussian",
         "cnr_id": "comfyui-geometrypack"

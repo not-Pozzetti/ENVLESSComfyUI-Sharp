@@ -1,4 +1,4 @@
-"""ProjectDepthToPanorama node for ComfyUI-Sharp.
+"""ProjectDepthToPanorama node for ENVLESSComfyUI-Sharp.
 
 Projects depth maps from perspective views back to equirectangular panorama
 with blending and debug visualization.

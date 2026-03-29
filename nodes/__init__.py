@@ -1,4 +1,4 @@
-"""ComfyUI-Sharp nodes aggregation."""
+"""ENVLESSComfyUI-Sharp nodes aggregation."""
 
 from .load_model import NODE_CLASS_MAPPINGS as LOAD_MODEL_MAPPINGS
 from .load_model import NODE_DISPLAY_NAME_MAPPINGS as LOAD_MODEL_DISPLAY_MAPPINGS

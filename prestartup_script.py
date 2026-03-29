@@ -1,12 +1,23 @@
-"""ComfyUI-Sharp Prestartup Script."""
-
+"""Prestartup Script (Clean version)."""
+import shutil
 from pathlib import Path
-from comfy_env import setup_env, copy_files
 
-setup_env()
+def copy_assets():
+    SCRIPT_DIR = Path(__file__).resolve().parent
+    # Adjust COMFYUI_DIR as needed; usually two levels up from custom_nodes/folder/
+    COMFYUI_DIR = SCRIPT_DIR.parent.parent
+    
+    src = SCRIPT_DIR / "assets"
+    dst = COMFYUI_DIR / "input"
+    
+    if src.exists():
+        dst.mkdir(parents=True, exist_ok=True)
+        for item in src.iterdir():
+            if item.is_file():
+                shutil.copy2(item, dst / item.name)
+            elif item.is_dir():
+                shutil.copytree(item, dst / item.name, dirs_exist_ok=True)
+        print(f"Copied assets from {src} to {dst}")
 
-SCRIPT_DIR = Path(__file__).resolve().parent
-COMFYUI_DIR = SCRIPT_DIR.parent.parent
-
-# Copy assets
-copy_files(SCRIPT_DIR / "assets", COMFYUI_DIR / "input")
+if __name__ == "__main__":
+    copy_assets()

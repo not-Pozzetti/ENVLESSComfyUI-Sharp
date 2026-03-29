@@ -1,4 +1,4 @@
-"""SharpPredictDepth node for ComfyUI-Sharp.
+"""SharpPredictDepth node for ENVLESSComfyUI-Sharp.
 
 Runs SHARP inference but outputs depth maps instead of PLY files.
 Used for panorama depth visualization and verification before Gaussian creation.

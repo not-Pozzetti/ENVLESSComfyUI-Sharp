@@ -1,4 +1,4 @@
-"""SharpPredict node for ComfyUI-Sharp."""
+"""SharpPredict node for ENVLESSComfyUI-Sharp."""
 
 import hashlib
 import logging

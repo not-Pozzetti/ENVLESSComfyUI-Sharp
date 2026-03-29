@@ -1,11 +1,14 @@
-# ComfyUI-Sharp
+# ENVLESSComfyUI-Sharp
+
+> [!IMPORTANT]
+> These were forks to avoid the abusive ComfyENV code that was added by Mr Pozzetti to thousands of unsuspecting users.
 
 <div align="center">
-<a href="https://pozzettiandrea.github.io/ComfyUI-Sharp/">
-<img src="https://pozzettiandrea.github.io/ComfyUI-Sharp/gallery-preview.png" alt="Workflow Test Gallery" width="800">
+<a href="https://not-pozzetti.github.io/ENVLESS/ENVLESSComfyUI-Sharp/">
+<img src="https://not-pozzetti.github.io/ENVLESS/ENVLESSComfyUI-Sharp/gallery-preview.png" alt="Workflow Test Gallery" width="800">
 </a>
 <br>
-<b><a href="https://pozzettiandrea.github.io/ComfyUI-Sharp/">View Live Test Gallery →</a></b>
+<b><a href="https://not-pozzetti.github.io/ENVLESS/ENVLESSComfyUI-Sharp/">View Live Test Gallery →</a></b>
 </div>
 
 ComfyUI wrapper for [SHARP](https://arxiv.org/abs/2512.10685) by [Apple](https://github.com/apple/ml-sharp) - monocular 3D Gaussian Splatting in under 1 second.
@@ -26,7 +29,7 @@ Workflow 2: focal length extraction from exif data.
 
 https://github.com/user-attachments/assets/b0c3e196-aa93-4380-8f8b-9c19b833b818
 
-Note: for PLY inference this model is good on its own, but for the Gaussian Viewer node, you're going to need to install this node as well! https://github.com/PozzettiAndrea/ComfyUI-GeometryPack
+Note: for PLY inference this model is good on its own, but for the Gaussian Viewer node, you're going to need to install this node as well! https://github.com/NOTPozzetti/ENVLESS/ENVLESSComfyUI-GeometryPack
 
 Model auto-downloads on first run. For offline use, place `sharp_2572gikvuh.pt` in `ComfyUI/models/sharp/`.
 
@@ -40,7 +43,7 @@ Images with EXIF data get focal length auto-calculated when using the Load Image
 
 ## Community
 
-Questions or feature requests? Open a [Discussion](https://github.com/PozzettiAndrea/ComfyUI-Sharp/discussions) on GitHub.
+Questions or feature requests? Open a [Discussion](https://github.com/NOTPozzetti/ENVLESSComfyUI-Sharp/discussions) on GitHub.
 
 Join the [Comfy3D Discord](https://discord.gg/bcdQCUjnHE) for help, updates, and chat about 3D workflows in ComfyUI.
 

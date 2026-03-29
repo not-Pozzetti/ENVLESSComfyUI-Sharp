@@ -1,4 +1,4 @@
-"""LoadSharpModel node for ComfyUI-Sharp."""
+"""LoadSharpModel node for ENVLESSComfyUI-Sharp."""
 
 import os
 import logging
